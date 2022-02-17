@@ -1,0 +1,32 @@
+.head1{
+    background-color:darkolivegreen;
+    text-align:center;
+}
+
+.section1{
+    background-color:darkolivegreen;
+    padding: 20px;
+    text-align:center;
+}
+
+.pic1{
+    border-radius:100%;
+}
+
+.section2{
+    background-color:burlywood;
+    padding: 20px;
+    text-align:left;
+}
+
+.section3{
+    background-color:darkgreen;
+    padding: 20px;
+    text-align:left;
+}
+
+.section4{
+    background-color:lightsalmon;
+    padding: 20px;
+    text-align:left;
+}
