@@ -1,32 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+   border-radius:100%; 
+}
+
+.sec1{
+    background-color:rgb(67, 29, 34);
+    color:white;
+}
+
+body{
+    text-align:center;
+    margin:0 auto;
+    max-width:1000px;
+}
+
+.box0 a{
+    color:white;
+    margin:9px 9px;
+    text-decoration:none;
+}
+.box0{
+    margin-bottom:100px;
+}
+
+.title{
+    font-size:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:left;
+    margin:40px 0;
+}
+
+.container{
+    padding:50px 70px;
+}
+
+.parag1{
+    font-size:medium;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:40px 0;
+}
+
+.title1{
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+.sec3{
+    background-color:lightslategray;
+    color:white;
+    text-align:left;
+}
+
+.sec4{
+    background-color:rgb(89, 88, 103);
+    color:white;
+    text-align:left;
+}
+
+.sec2{
+    background-color:rgb(62, 46, 71);
+    color:white;
+    text-align:left;
+}
+hr{
+    color:gray;
+    margin-top:30px;
+}
+
 .head1{
-    background-color:darkolivegreen;
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top:25px;
+    margin-bottom:6px;
+    font-weight:bold;
+}
+
+.tc{
     text-align:center;
+    max-width:max-content
+}
+.pp{
+    text-align: left;
+    line-height:30px;
+    margin-top:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.section1{
-    background-color:darkolivegreen;
-    padding: 20px;
-    text-align:center;
+.q{
+    color:white;
+    text-decoration:none;
+    padding-top:30px;
+    display:inline-block;
 }
 
-.pic1{
-    border-radius:100%;
-}
-
-.section2{
-    background-color:burlywood;
-    padding: 20px;
-    text-align:left;
-}
-
-.section3{
-    background-color:darkgreen;
-    padding: 20px;
-    text-align:left;
-}
-
-.section4{
-    background-color:lightsalmon;
-    padding: 20px;
+.foot{
+    background-color:rgb(45, 47, 49);
+    color:gray;
     text-align:left;
 }
